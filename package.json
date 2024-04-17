@@ -2,7 +2,7 @@
   "name": "@danjack/hello-world",
   "version": "0.1.1",
   "description": "Package to learn publish to npm",
-  "main": "dist/hellowWorld.cjs.js",
+  "main": "dist/helloWorld.cjs.js",
   "module": "dist/helloWorld.es.js",
   "types": "dist/types/helloWorld.d.ts",
   "scripts": {
