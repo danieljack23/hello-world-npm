@@ -9,7 +9,7 @@
     "dev": "rollup -c --watch",
     "build": "rollup -c",
     "test": "jest",
-    "publish": "npm run build && npm publish --access public"
+    "publish": "npm run build && npm version patch && npm publish --access public"
   },
   "author": "danjack",
   "license": "ISC",
