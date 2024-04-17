@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-npm",
+  "name": "@danjack/hello-world",
   "version": "0.1.0",
   "description": "Package to learn publish to npm",
   "main": "dist/hellowWorld.cjs.js",
