@@ -4,7 +4,7 @@
   "description": "Package to learn publish to npm",
   "main": "dist/helloWorld.cjs.js",
   "module": "dist/helloWorld.es.js",
-  "types": "dist/types/helloWorld.d.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "dev": "rollup -c --watch",
     "build": "rollup -c",
