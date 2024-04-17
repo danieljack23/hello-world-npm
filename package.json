@@ -1,0 +1,26 @@
+{
+  "name": "hello-world-npm",
+  "version": "0.1.0",
+  "description": "Package to learn publish to npm",
+  "main": "dist/hellowWorld.cjs.js",
+  "module": "dist/hellowWorld.es.js",
+  "types": "dist/types/helloWorld.d.ts",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "danjack",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "prettier": "^3.2.5",
+    "rollup": "^4.14.3",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "dist"
+  ]
+}
