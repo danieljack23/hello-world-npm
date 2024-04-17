@@ -1,3 +1,7 @@
 export const helloWorld = (name: string) => {
-  console.log("Hello world", name);
+  return "Hello world "+ name;
 };
+
+export const helloWorldAll = (names: string[]) => {
+  return "Hello world "+ names.join(", ");
+}
