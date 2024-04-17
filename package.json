@@ -12,7 +12,7 @@
   },
   "author": "danjack",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "prettier": "^3.2.5",
