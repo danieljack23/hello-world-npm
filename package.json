@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Package to learn publish to npm",
   "main": "dist/hellowWorld.cjs.js",
-  "module": "dist/hellowWorld.es.js",
+  "module": "dist/helloWorld.es.js",
   "types": "dist/types/helloWorld.d.ts",
   "scripts": {
     "dev": "rollup -c --watch",
