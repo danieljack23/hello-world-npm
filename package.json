@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "rollup -c --watch",
     "build": "rollup -c",
-    "test": "jest",
-    "publish": "npm run build && npm version patch && npm publish --access public"
+    "test": "jest"
   },
   "author": "danjack",
   "license": "ISC",
